@@ -14,3 +14,6 @@
 解説動画を公開します。
 
  第２章 Python 速習：Jupyterの使い方 : https://youtu.be/Y9qMibaa3uo
+ 第２章 Python 速習： Python 速習 :
+ 第３章 MeCab： MeCabのインストール(macOS)： https://youtu.be/PqGiQIDG3lU
+ 
