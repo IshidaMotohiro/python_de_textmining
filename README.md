@@ -12,7 +12,9 @@
 ## 動画
 
 解説動画を公開します。
-
+ 
+ 第２章 Python 速習： Miniforgeのインストール（M1チップmacOS編）: https://youtu.be/pDubtRcuth8
+ 第２章 Python 速習：Jupyterの起動と終了 （M1チップmacOS Miniforge編）: https://youtu.be/0-AETjou8zA
  第２章 Python 速習：Jupyterの使い方 : https://youtu.be/Y9qMibaa3uo
  第２章 Python 速習： Python 速習 :
  第３章 MeCab： MeCabのインストール(macOS)： https://youtu.be/0ePI8a9kNUI
