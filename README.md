@@ -16,14 +16,7 @@
 - 第２章 Python 速習： Miniforgeのインストール（M1チップmacOS編）: https://youtu.be/pDubtRcuth8
 - 第２章 Python 速習：Jupyterの起動と終了 （M1チップmacOS Miniforge編）: https://youtu.be/0-AETjou8zA
 - 第２章 Python 速習：Jupyterの使い方 : https://youtu.be/Y9qMibaa3uo
-- 第２章 Python 速習： Python 速習 : (coming soon)
+- 第２章 Python 速習： Python 速習 : テキスト分析：https://youtu.be/ifq-gmQvbhg
 - 第３章 MeCab： MeCabのインストール(macOS)： https://youtu.be/0ePI8a9kNUI
-- 第４章 
-- 第５章 
-- 第６章 
-- 第７章 
-- 第８章 
-- 第９章
-- 第10章 
-- 第11章
-- 第12章
+- 第９章 テキストの分類：歴代首相所信表明演説・安倍元総理の演説分析： coming soon
+
