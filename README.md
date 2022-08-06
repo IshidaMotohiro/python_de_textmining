@@ -20,6 +20,8 @@
 - 第３章 MeCab： MeCabのインストール(macOS)： https://youtu.be/0ePI8a9kNUI
 - 第９章 テキストの分類：歴代首相所信表明演説・安倍元総理の演説分析： coming soon
 
+[![MeCab_Install](http://img.youtube.com/vi/0ePI8a9kNUI/0.jpg)](https://www.youtube.com/watch?v=0ePI8a9kNUI)
+
 ## 本書の分析を R で実行する方法
 
 『Rによるテキストマイニング入門』
