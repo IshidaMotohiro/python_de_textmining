@@ -18,7 +18,7 @@
 - 第２章 Python 速習：Jupyterの使い方 : https://youtu.be/Y9qMibaa3uo
 - 第２章 Python 速習： Python 速習 : テキスト分析：https://youtu.be/ifq-gmQvbhg
 - 第３章 MeCab： MeCabのインストール(macOS)： https://youtu.be/0ePI8a9kNUI
-- 第９章 第１０章 歴代首相所信表明演説の読み込みと分析（安倍元総理の演説分析）： https://youtu.be/usJH_Qq9XYI
+- 第９章 第１０章 歴代首相所信表明演説の読み込みと分析（安倍元総理の演説分析）： https://youtu.be/5DfMDSucfRk
 
 
 [![MeCab_Install](http://img.youtube.com/vi/0ePI8a9kNUI/0.jpg)](https://www.youtube.com/watch?v=0ePI8a9kNUI)
