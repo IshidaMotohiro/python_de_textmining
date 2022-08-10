@@ -3,7 +3,8 @@
 
 import MeCab
 
-path = '-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd'
+# path = '-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd'
+path = ''
 #  -u /mnt/2bddf92b-47f9-4809-95a5-b91e7f25af27/myData/GitHub/bookdown_textmining/data/motohiro.dic
 tagger = MeCab.Tagger(path)
 
