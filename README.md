@@ -9,6 +9,10 @@
 - 発売日 ‏ : ‎ 2022/8/13
 - ISBN-13 ‏ : ‎ 978-4863543935  https://www.amazon.co.jp/dp/486354393X/
 
+
+なお、Windows で MeCab を利用する場合は 64bit UTF-8 辞書版が必要です。公式の 32 bit 版 MeCab をすでにインストールしている場合は必ずアンインストールしてから、64bit版をインストールし直してください。 https://github.com/ikegami-yukino/mecab/releases 
+
+
 ## 動画
 
 解説動画を公開します。
