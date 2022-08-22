@@ -1,5 +1,8 @@
 # python_de_textmining
 
+[動画](##動画)
+[本書の分析をRで実行する方法](##本書の分析をRで実行する方法)
+[変更履歴](##変更履歴)
 
 ## 『Pythonで学ぶテキストマイニング』
 
@@ -27,7 +30,7 @@
 
 [![MeCab_Install](http://img.youtube.com/vi/0ePI8a9kNUI/0.jpg)](https://www.youtube.com/watch?v=0ePI8a9kNUI)
 
-## 本書の分析を R で実行する方法
+## 本書の分析をRで実行する方法
 
 『Rによるテキストマイニング入門』
 出版社：森北出版
@@ -38,3 +41,13 @@ https://www.amazon.co.jp/dp/4627848420
 出版社：森北出版
 ISBN: 978-4627885110
 https://www.amazon.co.jp/dp/4627885113/
+
+
+## 変更履歴
+
+- Chapter02
+  emoji-2.0.0では UNICODE_EMOJI が削除され EMOJI_DATA を利用する
+- Chapter09
+  transformers で日本語モデルを読み込む処理を行うセルがノートブックから削除されていたので修正
+
+
