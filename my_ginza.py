@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import spacy
-nlp = spacy.load('ja_ginza_electra')
+# nlp = spacy.load('ja_ginza_electra')
+nlp = spacy.load('ja_ginza')
 word_list=[]
 
 def tokens(sentences, pos=['名詞', '形容詞', '動詞'], stopwords_list=[]):

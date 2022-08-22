@@ -4,8 +4,7 @@
 import MeCab
 
 # path = '-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd'
-paht = ''
-# -u /mnt/2bddf92b-47f9-4809-95a5-b91e7f25af27/myData/GitHub/bookdown_textmining/data/motohiro.dic
+path = ''
 tagger = MeCab.Tagger(path)
 
 def tokens(text, pos = ['名詞', '形容詞', '動詞']):
