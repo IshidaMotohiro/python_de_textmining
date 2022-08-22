@@ -47,6 +47,8 @@ https://www.amazon.co.jp/dp/4627885113/
 
 - Chapter02
   emoji-2.0.0では UNICODE_EMOJI が削除され EMOJI_DATA を利用する
+- Chapter07
+  CountVectorizer とファイルジェネレーターの項で引数指定を修正
 - Chapter09
   transformers で日本語モデルを読み込む処理を行うセルがノートブックから削除されていたので修正
 
