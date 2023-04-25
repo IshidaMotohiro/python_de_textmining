@@ -30,6 +30,27 @@
 
 [![MeCab_Install](http://img.youtube.com/vi/0ePI8a9kNUI/0.jpg)](https://www.youtube.com/watch?v=0ePI8a9kNUI)
 
+## Mac における MeCab のインストール
+
+本書の手順で MeCab を導入しても、`import MeCab` を実行したときに、ライブラリが見当たらないというエラーが生じることがあります。
+この場合、いったん Python 用の mecab-python3 をアンインストールし、今度は手元のMacでビルドし直してみます。
+
+```
+pip uninstall  mecab-python3
+pip install --no-binary :all: mecab-python3
+```
+
+改めて `import MeCab` を実行してみます。再度エラーが生じた場合は、Macにデフォルトでインストールされている"/usr/lib/libmecab.dylib" 
+に誤って関連付けられている可能性があります。otool でエラーでライブラリの関連付けと `_MeCab.cpython-311-darwin.so｀ の場所を確認し、そして（本書の記載通りにインストールした場合に存在するはずの）`/usr/local/lib/libmecab.2.dylib` に、手作業で関連付けをやり直します。以下は筆者の環境で実行した例です。
+
+```
+## 関連付けを確認し
+otool -L /Users/ishida/.pyenv/versions/3.11.1/lib/python3.11/site-packages/MeCab/_MeCab.cpython-311-darwin.so
+## 誤った関連付けを修正する
+install_name_tool -change "/usr/lib/libmecab.dylib" /usr/local/lib/libmecab.2.dylib /Users/ishida/.pyenv/versions/3.11.1/lib/python3.11/site-packages/MeCab/_MeCab.cpython-311-darwin.so
+```
+
+
 ## 本書の分析をRで実行する方法
 
 『Rによるテキストマイニング入門』
