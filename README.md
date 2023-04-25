@@ -41,7 +41,11 @@ pip install --no-binary :all: mecab-python3
 ```
 
 改めて `import MeCab` を実行してみます。再度エラーが生じた場合は、Macにデフォルトでインストールされている"/usr/lib/libmecab.dylib" 
-に誤って関連付けられている可能性があります。otool でエラーでライブラリの関連付けと `_MeCab.cpython-311-darwin.so｀ の場所を確認し、そして（本書の記載通りにインストールした場合に存在するはずの）`/usr/local/lib/libmecab.2.dylib` に、手作業で関連付けをやり直します。以下は筆者の環境で実行した例です。
+に誤って関連付けられている可能性があります。otool でエラーでライブラリの関連付けと 
+`_MeCab.cpython-311-darwin.so` 
+の場所を確認し、そして（本書の記載通りにインストールした場合に存在するはずの）
+`/usr/local/lib/libmecab.2.dylib`
+に、手作業で関連付けをやり直します。以下は筆者の環境で実行した例です。
 
 ```
 ## 関連付けを確認し
