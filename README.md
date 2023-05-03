@@ -48,9 +48,10 @@ pip install --no-binary :all: mecab-python3
 に、手作業で関連付けをやり直します。以下は筆者の環境で実行した例です。
 
 ```
-## 関連付けを確認し
+## _MeCab.cpython-311-darwin.so の関連付けを確認し
 otool -L /Users/ishida/.pyenv/versions/3.11.1/lib/python3.11/site-packages/MeCab/_MeCab.cpython-311-darwin.so
 ## 誤った関連付けを修正する
+### 以下の例では、誤って "/usr/lib/libmecab.dylib" と設定されているので、/usr/local/lib/libmecab.2.dylib と修正する
 install_name_tool -change "/usr/lib/libmecab.dylib" /usr/local/lib/libmecab.2.dylib /Users/ishida/.pyenv/versions/3.11.1/lib/python3.11/site-packages/MeCab/_MeCab.cpython-311-darwin.so
 ```
 
